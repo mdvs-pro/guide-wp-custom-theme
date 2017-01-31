@@ -131,7 +131,7 @@ add_action( 'init', 'project_post_type', 0 );
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
- * @package Startup-Ukraine
+ * @package Your_template_name
  */
 ?>
 ```
