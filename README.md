@@ -1,6 +1,6 @@
 # Custom WordPress theme creation
 
-* [Without bycicles. Download boilerplate theme](#Without-bycicles.-Download boilerplate-theme)
+* [Without bycicles. Download boilerplate theme](#without-bycicles-download-boilerplate-theme)
 * [Установка](#Установка)
 * [Кастомизируем](#Кастомизируем)
 * [Инициализация скриптов и стилей](#Инициализация-скриптов-и-стилей)
