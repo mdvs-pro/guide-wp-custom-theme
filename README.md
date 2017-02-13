@@ -10,6 +10,7 @@
 * [Создание дополнительных шаблонов страниц](Создание-дополнительных-шаблонов-страниц)
 * [Полезные плагины](#Полезные-плагины)
 
+
 ## Without bycicles. Download boilerplate theme
 Не нужно изобретать велосипед и начинать с нуля, для старта хорошо использовать [Underscores тему](https://underscores.me/)
 
@@ -182,7 +183,10 @@ add_action( 'init', 'project_post_type', 0 );
 ?>
 ```
 
-## Полезные плагины
+## Полезности
+
+### Плагины
+
 ### Управление Robots.txt с админки
 В дальнейшем это будет неплохо, если сеошник или владелец сайта смогут просто менять robots.txt. Я использую [https://wordpress.org/plugins-wp/wp-robots-txt/](https://wordpress.org/plugins-wp/wp-robots-txt/)
 ### Клонирование постов/страниц
@@ -194,3 +198,13 @@ WP очень любит добавлять лишние `<p>` и удалять
 ### Конвертирование кириллических заголовков
 Во избежание проблем с кириллическими ссылками, ставим плагин [Cyr to Lat enhanced](https://ru.wordpress.org/plugins/cyr3lat/)
 Будет конвертировать хотя бы в транслит на латинице
+
+### Другое
+
+[Wordpress generated css cheat sheet](http://www.wpbeginner.com/wp-themes/default-wordpress-generated-css-cheat-sheet-for-beginners/)
+
+[Wordpress Best Practice](https://codex.wordpress.org/%D0%A1%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%D1%8B_%D0%BA%D0%BE%D0%B4%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F_WordPress)
+
+[CSS testing in the WordPress environment](http://www.wpfill.me/)
+
+[Font Converter](https://onlinefontconverter.com/)
