@@ -79,10 +79,10 @@ wp_enqueue_script( 'jquery.maskedinput', get_template_directory_uri() . '/js/ven
 
 Переходим в файл `functions.php` находим функцию `custom-theme_scripts` и внутри пишем наше подключение, для этого случая конечный код будет таким
 ```
-function custom-theme_scripts() {
+function custom_theme_scripts() {
 	wp_enqueue_script( 'custom-name', get_template_directory_uri() . '/assets/js/custom.js', array('jquery'), '20171230', true);
 }
-add_action( 'wp_enqueue_scripts', 'daesung_scripts' );
+add_action( 'wp_enqueue_scripts', 'custom_theme_scripts' );
 ```
 
 * Разберем подробно: *
