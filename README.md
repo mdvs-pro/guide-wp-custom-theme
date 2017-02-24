@@ -182,6 +182,12 @@ add_action( 'init', 'project_post_type', 0 );
  */
 ?>
 ```
+Есть и другие варианты, дефолтную страницу можно перебить создав шаблон с конкретной привязкой к id или slug страницы.
+- page-[id].php
+- page-[slug].php
+
+Вот информация о иерархии шаблонов WordPress, слева - направо приоритетность увеличивается
+![template hierarchy](/img/template-hierarchy.png)
 
 ## Мультиязычность
 
@@ -225,3 +231,6 @@ WP генерит ссылки от заданного заголовка, ес�
 [CSS testing in the WordPress environment](http://www.wpfill.me/)
 
 [Font Converter](https://onlinefontconverter.com/)
+
+### READ
+[Migrate existing website to wordpress](https://www.smashingmagazine.com/2013/05/migrate-existing-website-to-wordpress/)
