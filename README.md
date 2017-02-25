@@ -14,23 +14,23 @@
 
 ## Краткий TODO <sup>1</sup>
 
-![check-img](/img/check.svg) Создать базу данных<br>
-![check-img](/img/check.svg) Скачать и установить WordPress<br>
-![check-img](/img/check.svg) Скачать и установить Underscores тему<br>
-![check-img](/img/check.svg) Закрыть сайт от индексации<br>
-![check-img](/img/check.svg) Установить плагины (стартовый набор у всех свой)<br>
-![check-img](/img/check.svg) Нарисовать структуру сайта<br>
-![check-img](/img/check.svg) Регистрация скриптов/стилей в functions.php<br>
-![check-img](/img/check.svg) Регистрация панели виджетов <sup>2</sup><br>
-![check-img](/img/check.svg) Регистрация кастомных типов страниц / постов <sup>2</sup><br>
-![check-img](/img/check.svg) Перенос верстки повторяющихся элементов (header, footer, sidebar)<br>
-![check-img](/img/check.svg) Перенос верстки Главной страницы (front-page.php)<br>
-![check-img](/img/check.svg) Перенос верстки вспомогательной страницы (page.php)<br>
-![check-img](/img/check.svg) Перенос верстки кастомных страниц/постов<br>
-![check-img](/img/check.svg) Автоматизация контента на страницах с помощью ACF<br>
-![check-img](/img/check.svg) Локализация страниц/постов и статических строк в шаблоне <sup>2</sup><br>
-![check-img](/img/check.svg) Заполнение контентом<br>
-![check-img](/img/check.svg) Открыть сайт для индексации<br>
+![check-img](/img/check.png) Создать базу данных<br>
+![check-img](/img/check.png) Скачать и установить WordPress<br>
+![check-img](/img/check.png) Скачать и установить Underscores тему<br>
+![check-img](/img/check.png) Закрыть сайт от индексации<br>
+![check-img](/img/check.png) Установить плагины (стартовый набор у всех свой)<br>
+![check-img](/img/check.png) Нарисовать структуру сайта<br>
+![check-img](/img/check.png) Регистрация скриптов/стилей в functions.php<br>
+![check-img](/img/check.png) Регистрация панели виджетов <sup>2</sup><br>
+![check-img](/img/check.png) Регистрация кастомных типов страниц / постов <sup>2</sup><br>
+![check-img](/img/check.png) Перенос верстки повторяющихся элементов (header, footer, sidebar)<br>
+![check-img](/img/check.png) Перенос верстки Главной страницы (front-page.php)<br>
+![check-img](/img/check.png) Перенос верстки вспомогательной страницы (page.php)<br>
+![check-img](/img/check.png) Перенос верстки кастомных страниц/постов<br>
+![check-img](/img/check.png) Автоматизация контента на страницах с помощью ACF<br>
+![check-img](/img/check.png) Локализация страниц/постов и статических строк в шаблоне <sup>2</sup><br>
+![check-img](/img/check.png) Заполнение контентом<br>
+![check-img](/img/check.png) Открыть сайт для индексации<br>
 
 <sup>1</sup> - с готовой версткой<br>
 <sup>2</sup> - по необходимости
