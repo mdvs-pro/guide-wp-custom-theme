@@ -137,7 +137,35 @@ add_action( 'wp_enqueue_scripts', 'custom_theme_scripts' );
 Созданное поле появится в выбранном по правилам обьекте. А вывести его можно по разному, в зависимости от типа, который ему выбрали. 
 
 * Если нужно запомнить значение в переменной тогда подойдет запись `<?php $value = get_field("имя_поля"); ?>`
-* Другой случай - вывод в конкретном месте, тогда в выбранном месте пишем `<?php the_field("имя_поля")`
+* Другой случай - вывод в конкретном месте, тогда в выбранном месте пишем `<?php the_field("имя_поля");?>` или `<?php echo get_field("имя_поля");?>`
+
+Перебор кастомных полей в поле типа `Repeater`<br>
+* Проверка на наличие полей<br>
+`<?php if( have_rows('имя_основного_поля_того_что_repeater') ):?>
+`
+* Перебор полей, что содержатся в repeater'e<br>
+`<?php while ( have_rows('имя_основного_поля_того_что_repeater') ) : the_row(); ?>`
+* Внутри этого перебора обращения к полям пишутся с добавление `_sub_`, а имеено `get_sub_field`,`the_sub_field`
+* Если нужно прекратить вывод на какой-то итерации, тогда выход из цикла командой `break` и после цикла, строчки `endwhile` в этом случае, обязательно пишем сброс нашего запроса с глобального массива `reset_rows();`
+
+Пример кода:
+```
+<?php if( have_rows('site__row') ): $i = 0; ?>
+  <div class="row__div">
+    <h2 class="row__title"><?php the_field('row__title');?></h2>
+    <ul>
+	  <?php while ( have_rows('landing__reviews') ) : the_row(); $i++ ?>
+		<li>
+		  <img src="<?php the_sub_field('row-child__field');?>" alt="">
+		</li>
+	  <?php if ($i == 3) { break; } ?>
+	  <?php endwhile; ?>
+	  <?php reset_rows(); ?>
+    </ul>
+  </div>
+<?php endif; ?>
+```
+
 
 Подробнее на сайте плагина в [Документации](https://www.advancedcustomfields.com/resources/)
 
