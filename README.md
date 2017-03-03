@@ -11,7 +11,7 @@
 * [Кастомные типы страниц/постов](#Кастомные-типы-страницпостов)
 * [Создание дополнительных шаблонов страниц](#Создание-дополнительных-шаблонов-страниц)
 * [Полезности](#Полезности)
-* [Плагины](https://github.com/yuchiko/guide-wp-custom-theme/chapter/plugins.md)
+* [Плагины](https://github.com/yuchiko/guide-wp-custom-theme/blob/master/chapter/plugins.md)
 
 ## Краткий TODO <sup>1</sup>
 
