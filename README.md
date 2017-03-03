@@ -253,33 +253,6 @@ add_action( 'init', 'project_post_type', 0 );
 
 ## Полезности
 
-### Плагины
-
-**Управление Robots.txt с админки**
-
-В дальнейшем это будет неплохо, если сеошник или владелец сайта смогут просто менять robots.txt. Я использую [https://wordpress.org/plugins-wp/wp-robots-txt/](https://wordpress.org/plugins-wp/wp-robots-txt/)
-
-**Клонирование постов/страниц**
-
-Добавляем кнопку "Клонировать" для облегченного создания дублированного контента. [https://wordpress.org/plugins-wp/post-duplicator/](https://wordpress.org/plugins-wp/post-duplicator/)
-
-**Исключаем автоформатирование от WordPress**
-
-WP очень любит добавлять лишние `<p>` и удалять "лишние" `<div>`. Во избежание стоит установить [Raw HTML](https://wordpress.org/plugins-wp/raw-html/)
-
-**Сжатие медиафайлов**
-
-Для экономии нервов и места на сайте будет 100% надо установить [WP Smush](https://wordpress.org/plugins-wp/wp-smushit/)
-
-**Конвертирование кириллических заголовков**
-
-WP генерит ссылки от заданного заголовка, естественно, если заголовок написан кириллицей, то и ссылка будет кириллицей. Идеально, если кириллических ссылок не будет, очень идеально, если они будут прописаны руками на правильном английском. Очень идеально не выйдет, но с первым случаем поможет этот плагин [Cyr to Lat enhanced](https://ru.wordpress.org/plugins/cyr3lat/)
-Будет конвертировать хотя бы в транслит на латинице
-
-**Генерация форм**
-
-[Contact Form 7](https://contactform7.com/)
-
 ### Другое
 
 [Wordpress generated css cheat sheet](http://www.wpbeginner.com/wp-themes/default-wordpress-generated-css-cheat-sheet-for-beginners/)
