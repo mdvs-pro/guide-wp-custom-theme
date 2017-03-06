@@ -29,3 +29,8 @@ WP генерит ссылки от заданного заголовка, ес�
 **Генерация форм**
 
 [Contact Form 7](https://contactform7.com/)
+
+**Developer
+
+Плагин для отслеживания всех данных, которые есть на странице. (WMPL meta, database meta, user meta)
+[Developer](https://ru.wordpress.org/plugins/developer/)
