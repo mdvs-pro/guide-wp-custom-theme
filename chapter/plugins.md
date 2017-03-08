@@ -34,3 +34,8 @@ WP генерит ссылки от заданного заголовка, ес�
 
 Плагин для отслеживания всех данных, которые есть на странице. (WMPL meta, database meta, user meta)
 [Developer](https://ru.wordpress.org/plugins/developer/)
+
+**Show current Template**
+
+Показывает какой шаблон используется на данной странице
+[show current template](https://ru.wordpress.org/plugins/show-current-template/)
