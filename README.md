@@ -127,6 +127,25 @@ add_action( 'wp_enqueue_scripts', 'custom_theme_scripts' );
 
 - `true` (`$in_footer`)- передаем true, если скрипт нужно обьявить перед закрывающим тегом `body`
 
+## Инициализация скриптов и стилей для админки и редактора
+
+Для админки
+```
+function load_custom_wp_admin_style() {
+        wp_register_style( 'custom_wp_admin_css', get_template_directory_uri() . '/assets/css/admin-style.css', false, '1.0.0' );
+        wp_enqueue_style( 'custom_wp_admin_css' );
+}
+add_action( 'admin_enqueue_scripts', 'load_custom_wp_admin_style' );
+```
+
+Для редактора
+```
+function wpdocs_theme_add_editor_styles() {
+    add_editor_style( get_template_directory_uri() . '/assets/css/admin-style.css' );
+}
+add_action( 'admin_init', 'wpdocs_theme_add_editor_styles' );
+```
+
 ## Переносим управление контентом в настройки страницы/поста
 Смену всего динамического контента нужно реализовать максимально легко для менеджера/админа сайта. Для этого используем [AdvancedCustomFields](https://www.advancedcustomfields.com/)
 Хорошо приобрести его платное дополнение для создания повторяющихся полей(например изображений в слайдере) - [Repeater Field](https://www.advancedcustomfields.com/add-ons/repeater-field/)
