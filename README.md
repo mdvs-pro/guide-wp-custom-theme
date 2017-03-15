@@ -11,6 +11,7 @@
 * [Кастомные типы страниц/постов](#Кастомные-типы-страницпостов)
 * [Custom taxonomy wordpress](https://github.com/yuchiko/guide-wp-custom-theme/blob/master/chapter/custom-taxonomy.md)
 * [Создание дополнительных шаблонов страниц](#Создание-дополнительных-шаблонов-страниц)
+* [Функции, которые могут пригодится](https://github.com/yuchiko/guide-wp-custom-theme/blob/master/chapter/functions.md)
 * [Полезности](#Полезности)
 * [Плагины](https://github.com/yuchiko/guide-wp-custom-theme/blob/master/chapter/plugins.md)
 
