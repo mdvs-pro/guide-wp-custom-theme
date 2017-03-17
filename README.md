@@ -287,3 +287,4 @@ add_action( 'init', 'project_post_type', 0 );
 
 ### READ
 [Migrate existing website to wordpress](https://www.smashingmagazine.com/2013/05/migrate-existing-website-to-wordpress/)
+[Complete guide custom post types](https://www.smashingmagazine.com/2012/11/complete-guide-custom-post-types/)
