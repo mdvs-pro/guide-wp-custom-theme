@@ -13,6 +13,7 @@
 * [Создание дополнительных шаблонов страниц](#Создание-дополнительных-шаблонов-страниц)
 * [Функции, которые могут пригодится](https://github.com/yuchiko/guide-wp-custom-theme/blob/master/chapter/functions.md)
 * [Полезности](#Полезности)
+* [Возможности плагина ACF][https://github.com/yuchiko/guide-wp-custom-theme/blob/master/chapter/acf.md]
 * [Плагины](https://github.com/yuchiko/guide-wp-custom-theme/blob/master/chapter/plugins.md)
 
 ## Краткий TODO <sup>1</sup>
